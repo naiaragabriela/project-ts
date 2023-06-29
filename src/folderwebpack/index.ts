@@ -1,3 +1,3 @@
 export default (): void => {
-  console.log('sou o modulo');
+  console.log('Sou o modulo');
 };

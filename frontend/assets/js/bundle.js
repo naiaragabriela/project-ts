@@ -81,19 +81,25 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/webpack/index.ts");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/folderwebpack/index.ts");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/webpack/index.ts":
-/*!******************************!*\
-  !*** ./src/webpack/index.ts ***!
-  \******************************/
+/***/ "./src/folderwebpack/index.ts":
+/*!************************************!*\
+  !*** ./src/folderwebpack/index.ts ***!
+  \************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/ts-loader/index.js):\nError: TypeScript emitted no output for C:\\Users\\adm\\source\\repos\\project-ts\\src\\webpack\\index.ts.\n    at makeSourceMapAndFinish (C:\\Users\\adm\\source\\repos\\project-ts\\node_modules\\ts-loader\\dist\\index.js:54:18)\n    at successLoader (C:\\Users\\adm\\source\\repos\\project-ts\\node_modules\\ts-loader\\dist\\index.js:41:5)\n    at Object.loader (C:\\Users\\adm\\source\\repos\\project-ts\\node_modules\\ts-loader\\dist\\index.js:24:5)");
+"use strict";
+
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = (function () {
+    console.log('Sou o modulo');
+});
+
 
 /***/ })
 
