@@ -100,4 +100,5 @@ body {
 }
 
 .form .show-error-message input[type] {
-  bor
+  border-color: var(--error-color);
+}
