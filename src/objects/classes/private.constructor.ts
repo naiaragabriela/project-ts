@@ -31,4 +31,4 @@ const database2 = Database.getDatabase('localhost', 'root', '12345');
 database2.connect();
 
 const database3 = Database.getDatabase('localhost', 'root', '12345');
-database2.connect();
+database3.connect();
